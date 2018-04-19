@@ -1,0 +1,19 @@
+@mixin fontFace($family,$url,$weight){
+	@font-face {
+	    font-family: $family;
+	    src: url('#{$url}');
+	    font-weight: $weight;
+	}
+}
+
+@include fontFace('Lato', '../fonts/Lato-Regular.ttf', 400);
+@include fontFace('Lato', '../fonts/Lato-Bold.ttf', 700);
+ 
+.lato-bold {
+  font-family: 'Lato' !important;
+  font-weight: 700;
+}
+.lato-regular {
+  font-family: 'Lato' !important;
+  font-weight: 400;
+}

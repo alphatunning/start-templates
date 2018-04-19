@@ -1,0 +1,23 @@
+h1, h2, h3 {
+	font-weight: 700;
+	@extend .lato-bold;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 22px;
+	@include media-breakpoint-up(md) { 
+		font-size: 40px;
+	}
+}
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
+	@extend .lato-regular;
+}

@@ -1,0 +1,32 @@
+.fz-18 {
+	font-size: 18px;
+}
+
+.text-gold {
+	color: $beige;
+}
+
+.text-none {
+	text-decoration: none;
+}
+
+.btn-blue {
+	color: #fff;
+	background: $blue;
+}
+
+.btn-gray {
+	color: #fff;
+	background: $gray-300;
+}
+
+@media(max-width:1200px) {
+	.container__fluid--sm {
+		width: 100% !important;
+		max-width:100% !important;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

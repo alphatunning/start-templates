@@ -1,0 +1,11 @@
+body {
+	@extend .lato-regular;
+	min-width: 320px;
+}
+
+main {
+	margin-top: 117px;
+	@media(min-width: 991px) {
+		margin-top: 101px;
+	}
+}
